@@ -11,10 +11,11 @@ Demonstration of ProRunVis visualization/debugger for some real-world Java code.
 4. Click on `Browse...` and select the folder of the example to "upload".
 5. Wait for around 3 seconds (or longer) until trace is recorded, parsed and displayed.
 6. Now everything executed in the main method should be green with blue links to the method calls.
-   You can click on them to see what happened in these functions.
-   You can click on the `return` or the current method's name to go back to the caller.
-   You can see witch `if` or `else` branches are executed by the green highlighting.
-   You can also select a different loop iterations for any `for`/`while`/`do-while` loop. Just click around!
+
+You can click on them to see what happened in these functions.
+You can click on the `return` or the current method's name to go back to the caller.
+You can see witch `if` or `else` branches are executed by the green highlighting.
+You can also select a different loop iterations for any `for`/`while`/`do-while` loop. Just click around!
 
 ## Example Description
 ### Dual Pivot Quicksort
