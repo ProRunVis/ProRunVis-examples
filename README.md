@@ -25,8 +25,8 @@ This example consists of `java/util/DualPivotQuicksort.java` from the official O
 Plus a `main` method with some sample arrays.
 
 This is a real-world example and features both simple `if`/`else` control flow,
-as well as nested `while`/`for`/`do-while` loops and recurse method calls. Note that
-the visualization picks correct instances of the overloaded method calls
+as well as nested `while`/`for`/`do-while` loops and recursive method calls. Note that
+the visualization picks correct methods of the overloaded method calls
 to `sort()`.
 
 ## LICENSE
