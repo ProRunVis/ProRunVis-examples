@@ -4,7 +4,7 @@ Demonstration of ProRunVis visualization/debugger for some real-world Java code.
 
 ## Running an Example
 
-1. Follow the instructions in the top-level repo to set up and build ProRunVis.
+1. Follow the instructions in [ProRunVis](https://github.com/ProRunVis/ProRunVis) to set-up and build it.
 2. Start the web-interface.
    `java -jar prorunvis-api/build/libs/prorunvis-api.jar`
 3. Open Web-Browser on http://localhost:8080/
