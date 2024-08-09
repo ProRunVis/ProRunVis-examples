@@ -18,16 +18,25 @@ You can see witch `if` or `else` branches are executed by the green highlighting
 You can also select a different loop iterations for any `for`/`while`/`do-while` loop. Just click around!
 
 ## Example Description
+
 ### Dual Pivot Quicksort
 
 This example consists of `java/util/DualPivotQuicksort.java` from the official OpenJDK sources
 (renamed to `java_copy/util` to make it compile).
 Plus a `main` method with some sample arrays.
 
-This is a real-world example and features both simple `if`/`else` control flow,
+This is a real-world example and features both `if`/`else` control flow,
 as well as nested `while`/`for`/`do-while` loops and recursive method calls. Note that
 the visualization picks correct methods of the overloaded method calls
 to `sort()`.
+
+![screenshot](DualPivotQuicksort/screenshot.png)
+
+### Snow White
+
+Simple hand-crafted demo, featuring three methods, two `if` and a `for` loop.
+
+![screenshot](SnowWhite/screenshot.png)
 
 ## LICENSE
 
