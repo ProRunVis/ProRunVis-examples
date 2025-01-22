@@ -1,0 +1,5576 @@
+[
+  {
+    "program": "JBMC 6.2.0 (cbmc-6.2.0-18-g78f208cf0e)"
+  },
+  {
+    "messageText": "JBMC version 6.2.0 (cbmc-6.2.0-18-g78f208cf0e) 64-bit x86_64 linux",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Parsing ...",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: SnowWhite.indexMax:([I)I",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Trying to load Java main class: SnowWhite",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Found Java main class: SnowWhite",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Converting",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "stub class symbol java::java.lang.Object already exists",
+    "messageType": "WARNING"
+  },
+  {
+    "messageText": "Java: added 17 String or Class constant symbols",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generating GOTO Program",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running GOTO functions transformation passes",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running with 16 object bits, 48 offset bits (default)",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Starting Bounded Model Checking",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding loop java::SnowWhite.indexMax:([I)I.0 iteration 1 file SnowWhite.java line 10 function java::SnowWhite.indexMax:([I)I bytecode-index 73 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding loop java::SnowWhite.indexMax:([I)I.0 iteration 2 file SnowWhite.java line 10 function java::SnowWhite.indexMax:([I)I bytecode-index 73 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding loop java::SnowWhite.indexMax:([I)I.0 iteration 3 file SnowWhite.java line 10 function java::SnowWhite.indexMax:([I)I bytecode-index 73 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding loop java::SnowWhite.indexMax:([I)I.0 iteration 4 file SnowWhite.java line 10 function java::SnowWhite.indexMax:([I)I bytecode-index 73 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Not unwinding loop java::SnowWhite.indexMax:([I)I.0 iteration 5 file SnowWhite.java line 10 function java::SnowWhite.indexMax:([I)I bytecode-index 73 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Unwinding recursion java::SnowWhite.<clinit_wrapper> iteration 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "aborting path on assume(false) at file SnowWhite.java line 18 function java::SnowWhite.indexMax:([I)I bytecode-index 81 thread 0",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Symex: 0.164145s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "size of program expression: 1263 steps",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "simple slicing removed 396 assignments",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Generated 2 VCC(s), 2 remaining after simplification",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Postprocess Equation: 0.000539377s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Passing problem to string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "converting SSA",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Convert SSA: 0.0282918s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "8130 variables, 17100 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker: instance is SATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got SAT, and it simulates => SAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.0235721s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.0523141s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Building error trace",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Running string refinement loop with MiniSAT 2.2.1 without simplifier",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "8130 variables, 13811 clauses",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "SAT checker inconsistent: instance is UNSATISFIABLE",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "BV-Refinement: got UNSAT, and the proof passes => UNSAT",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Total iterations: 1",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime Solver: 0.000116796s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "messageText": "Runtime decision procedure: 0.000228912s",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "result": [
+      {
+        "description": "assertion at file SnowWhite.java line 18 function java::SnowWhite.indexMax:([I)I bytecode-index 81",
+        "property": "java::SnowWhite.indexMax:([I)I.assertion.1",
+        "sourceLocation": {
+          "bytecodeIndex": "81",
+          "file": "SnowWhite.java",
+          "function": "java::SnowWhite.indexMax:([I)I",
+          "line": "18"
+        },
+        "status": "FAILURE",
+        "trace": [
+          {
+            "function": {
+              "displayName": "__CPROVER_initialize",
+              "identifier": "__CPROVER_initialize",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": true,
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "__CPROVER_rounding_mode",
+            "mode": "C",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "signed int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "@inflight_exception",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "void *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$assertionsDisabled",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "java$$SnowWhite$$clinit_already_run",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "0",
+              "data": false,
+              "name": "boolean"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "SnowWhite@class_model.@class_identifier",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "trace",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "function": {
+              "displayName": "__CPROVER_initialize",
+              "identifier": "__CPROVER_initialize",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "uncaught_exception'",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "void *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": true,
+            "lhs": "nondet_array_length",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": true,
+            "lhs": "array_data_init",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int (*)[5]"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": true,
+            "lhs": "a",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": true,
+            "lhs": "nondet_array_length",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "nondet_array_length",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000100",
+              "data": "4",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@java.lang.Object",
+                  "value": {
+                    "members": [
+                      {
+                        "name": "@class_identifier",
+                        "value": {
+                          "data": "java::java.lang.Class",
+                          "name": "string"
+                        }
+                      }
+                    ],
+                    "name": "struct"
+                  }
+                },
+                {
+                  "name": "length",
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "name": "data",
+                  "value": {
+                    "data": "null",
+                    "name": "pointer",
+                    "type": "int *"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.@java.lang.Object",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@class_identifier",
+                  "value": {
+                    "data": "java::java.lang.Class",
+                    "name": "string"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.length",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.data",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "a",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::array[int]",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.length",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.data",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.length",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000100",
+              "data": "4",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": true,
+            "lhs": "tmp_new_data_array",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "tmp_new_data_array",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_array",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.data",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_array",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array[0L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array[1L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array[2L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array[3L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array[4L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[0L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[1L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[2L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[3L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[4L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "array_data_init",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$0",
+              "name": "pointer",
+              "type": "int (*)[5]"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "10000000000000000000000000000000",
+                    "data": "-2147483648",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "10000000000000000000000000000100",
+                    "data": "-2147483644",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "10000010000000000000000000000000",
+                    "data": "-2113929216",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "10000010000000000000000000000000",
+                    "data": "-2113929216",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[0L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "10000000000000000000000000000000",
+              "data": "-2147483648",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[1L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "10000000000000000000000000000100",
+              "data": "-2147483644",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[2L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "10000010000000000000000000000000",
+              "data": "-2113929216",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[3L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "10000010000000000000000000000000",
+              "data": "-2113929216",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$0[4L]",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object.data",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$0",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "hidden": false,
+            "inputID": "a",
+            "internal": true,
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "input",
+            "thread": 0,
+            "values": [
+              {
+                "data": "dynamic_object",
+                "name": "pointer",
+                "type": "struct java::array[int] *"
+              }
+            ]
+          },
+          {
+            "function": {
+              "displayName": "SnowWhite.indexMax(int[])",
+              "identifier": "java::SnowWhite.indexMax:([I)I",
+              "sourceLocation": {
+                "file": "SnowWhite.java",
+                "function": "java::SnowWhite.indexMax:([I)I",
+                "line": "5"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "a",
+            "mode": "java",
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "res",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "k",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "newarray_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$1",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@java.lang.Object",
+                  "value": {
+                    "members": [
+                      {
+                        "name": "@class_identifier",
+                        "value": {
+                          "data": "java::java.lang.Class",
+                          "name": "string"
+                        }
+                      }
+                    ],
+                    "name": "struct"
+                  }
+                },
+                {
+                  "name": "length",
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "name": "data",
+                  "value": {
+                    "data": "null",
+                    "name": "pointer",
+                    "type": "int *"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.@java.lang.Object",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@class_identifier",
+                  "value": {
+                    "data": "java::java.lang.Class",
+                    "name": "string"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.length",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.data",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "newarray_tmp0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$1",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.@java.lang.Object.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::array[int]",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.length",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.data",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$1.length",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000001011",
+              "data": "11",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "tmp_new_data_array",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "tmp_new_data_array",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_array$0",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$1.data",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_array$0",
+              "name": "pointer",
+              "type": "int *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_array$0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "elements": [
+                {
+                  "index": 0,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 1,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 2,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 3,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 4,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 5,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 6,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 7,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 8,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 9,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                },
+                {
+                  "index": 10,
+                  "value": {
+                    "binary": "00000000000000000000000000000000",
+                    "data": "0",
+                    "name": "integer",
+                    "type": "int",
+                    "width": 32
+                  }
+                }
+              ],
+              "name": "array"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[0L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[1L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[2L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[3L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[4L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[5L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[6L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[7L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[8L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[9L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[10L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "5",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[0L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "5",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000101",
+              "data": "5",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[1L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000011",
+              "data": "3",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[2L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "17",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[3L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "17",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "21",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[4L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "21",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "25",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[5L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "25",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "29",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[6L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "29",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "33",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[7L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "33",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "37",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[8L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "37",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "41",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[9L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "41",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000110",
+              "data": "6",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "45",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_array$0[10L]",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "45",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000100",
+              "data": "4",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "trace",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "46",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "5"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$1",
+              "name": "pointer",
+              "type": "struct java::array[int] *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "48",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "6"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "50",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "8"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "50",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "8"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "50",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "8"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000011",
+              "data": "3",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "50",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "8"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "res",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "52",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "9"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "k",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "54",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "58",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "loop-head",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000100",
+              "data": "4",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "67",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "k",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "72",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "73",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "58",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "loop-head",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000101",
+              "data": "5",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "67",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000110",
+              "data": "6",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "res",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "71",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "14"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "k",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "72",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "73",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "58",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "loop-head",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "22",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000111",
+              "data": "7",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "67",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "22",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000001000",
+              "data": "8",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "69",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "13"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "res",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "71",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "14"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000010",
+              "data": "2",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "k",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "72",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000011",
+              "data": "3",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "73",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "58",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "loop-head",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "22",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000001001",
+              "data": "9",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "60",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "11"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "67",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "12"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "k",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "72",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000100",
+              "data": "4",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "73",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "58",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "10"
+            },
+            "stepType": "loop-head",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "74",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "75",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "75",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "17"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "arg0i",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "75",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "17"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000110",
+              "data": "6",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "3",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "71"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "9",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "11",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "13",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "72"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "18",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp2",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000001",
+              "data": "1",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "20",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "22",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "73"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "index",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "26",
+              "file": "prorunvis/Trace.java",
+              "function": "java::prorunvis.Trace.next_elem:(I)V",
+              "line": "74"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000001010",
+              "data": "10",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "function": {
+              "displayName": "prorunvis.Trace.next_elem(int)",
+              "identifier": "java::prorunvis.Trace.next_elem:(I)V",
+              "sourceLocation": {
+                "file": "prorunvis/Trace.java",
+                "function": "java::prorunvis.Trace.next_elem:(I)V",
+                "line": "71"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "75",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "17"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "76",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::SnowWhite.<clinit_wrapper>",
+              "identifier": "java::SnowWhite.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "76",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "java$$SnowWhite$$clinit_already_run",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "1",
+              "data": true,
+              "name": "boolean"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "SnowWhite.<clinit>()",
+              "identifier": "java::SnowWhite.<clinit>:()V",
+              "sourceLocation": {
+                "file": "SnowWhite.java",
+                "function": "java::SnowWhite.<clinit>:()V",
+                "line": "1"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java.lang.Class.desiredAssertionStatus()",
+              "identifier": "java::java.lang.Class.desiredAssertionStatus:()Z",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": false,
+            "lhs": "this",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "SnowWhite@class_model",
+              "name": "pointer",
+              "type": "struct java.lang.Class *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "to_return",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "java.lang.Class.desiredAssertionStatus:()Z#return_value",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "function": {
+              "displayName": "java.lang.Class.desiredAssertionStatus()",
+              "identifier": "java::java.lang.Class.desiredAssertionStatus:()Z",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "return_tmp0",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "1",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000001",
+              "data": "true",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "2",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "5",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$stack_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000000000000000000000000000",
+              "data": "0",
+              "name": "integer",
+              "type": "int",
+              "width": 32
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::SnowWhite.<clinit_wrapper>",
+              "identifier": "java::SnowWhite.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::SnowWhite.<clinit_wrapper>",
+              "identifier": "java::SnowWhite.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "$assertionsDisabled",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "6",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "binary": "00000000",
+              "data": "false",
+              "name": "integer",
+              "type": "const boolean",
+              "width": 8
+            }
+          },
+          {
+            "function": {
+              "displayName": "SnowWhite.<clinit>()",
+              "identifier": "java::SnowWhite.<clinit>:()V",
+              "sourceLocation": {
+                "file": "SnowWhite.java",
+                "function": "java::SnowWhite.<clinit>:()V",
+                "line": "1"
+              }
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.<clinit>:()V",
+              "line": "1"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java::SnowWhite.<clinit_wrapper>",
+              "identifier": "java::SnowWhite.<clinit_wrapper>",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "76",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "77",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": true,
+            "internal": false,
+            "lhs": "new_tmp1",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "null",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "dynamic_object$20",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "78",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "members": [
+                {
+                  "name": "@class_identifier",
+                  "value": {
+                    "data": "java::java.lang.Class",
+                    "name": "string"
+                  }
+                }
+              ],
+              "name": "struct"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$20.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "78",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.Class",
+              "name": "string"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "new_tmp1",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "78",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$20",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": false,
+            "lhs": "dynamic_object$20.@class_identifier",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "78",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "java::java.lang.AssertionError",
+              "name": "string"
+            }
+          },
+          {
+            "hidden": false,
+            "sourceLocation": {
+              "bytecodeIndex": "80",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "location-only",
+            "thread": 0
+          },
+          {
+            "function": {
+              "displayName": "java.lang.AssertionError.<init>()",
+              "identifier": "java::java.lang.AssertionError.<init>:()V",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "sourceLocation": {
+              "bytecodeIndex": "80",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "function-call",
+            "thread": 0
+          },
+          {
+            "assignmentType": "actual-parameter",
+            "hidden": false,
+            "internal": true,
+            "lhs": "this",
+            "mode": "java",
+            "sourceLocation": {
+              "bytecodeIndex": "80",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$20",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "assignmentType": "variable",
+            "hidden": false,
+            "internal": true,
+            "lhs": "to_construct",
+            "mode": "java",
+            "stepType": "assignment",
+            "thread": 0,
+            "value": {
+              "data": "dynamic_object$20",
+              "name": "pointer",
+              "type": "struct java.lang.AssertionError *"
+            }
+          },
+          {
+            "function": {
+              "displayName": "java.lang.AssertionError.<init>()",
+              "identifier": "java::java.lang.AssertionError.<init>:()V",
+              "sourceLocation": {}
+            },
+            "hidden": false,
+            "internal": false,
+            "stepType": "function-return",
+            "thread": 0
+          },
+          {
+            "hidden": false,
+            "internal": false,
+            "property": "java::SnowWhite.indexMax:([I)I.assertion.1",
+            "reason": "assertion at file SnowWhite.java line 18 function java::SnowWhite.indexMax:([I)I bytecode-index 81",
+            "sourceLocation": {
+              "bytecodeIndex": "81",
+              "file": "SnowWhite.java",
+              "function": "java::SnowWhite.indexMax:([I)I",
+              "line": "18"
+            },
+            "stepType": "failure",
+            "thread": 0
+          }
+        ]
+      },
+      {
+        "description": "unwinding assertion loop 0",
+        "property": "java::SnowWhite.indexMax:([I)I.unwind.0",
+        "sourceLocation": {
+          "bytecodeIndex": "73",
+          "file": "SnowWhite.java",
+          "function": "java::SnowWhite.indexMax:([I)I",
+          "line": "10"
+        },
+        "status": "SUCCESS"
+      }
+    ]
+  },
+  {
+    "messageText": "VERIFICATION FAILED",
+    "messageType": "STATUS-MESSAGE"
+  },
+  {
+    "cProverStatus": "failure"
+  }
+]

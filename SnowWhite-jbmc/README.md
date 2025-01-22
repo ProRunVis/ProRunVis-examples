@@ -47,5 +47,5 @@ Notes:
 * `jbmc` might be replaced by the path to jbmc (in the cbmc folder in `build/bin/jbmc`)
 * First argument is the fully qualified name of the function. 
 * JBMC needs maximum unwinding and max nondet array length. Unwinding means how many loop iterations are executed at maximum. Array length restricts the length of arrays. Make sure that the execution does not exceed these limits!
-* The final report is in model-indexMax.json, including a counter example we will use. We are only interested in counter examples that violate the `assert(false)` we inserted. That is why we have `--disable-uncought-exception-check` and `--throw-runtime-exceptions` to disable other assertions.
+* The final report is in model-indexMax.json, including a counter example we will use. We are only interested in counter examples that violate the `assert(false)` we inserted. That is why we have `--disable-uncought-exception-check` and `--throw-runtime-exceptions` to disable other assertions. A sample `model-indexMax-sample.json` is included in the folder.
 
